@@ -1,0 +1,126 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Sharath Chandra Reddy Muthyam — Data & AI Engineering</title>
+<meta name="description" content="Portfolio of Sharath Chandra Reddy Muthyam — data pipelines, AI-powered extraction systems, and ML infrastructure." />
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <span class="nav-name">Sharath Muthyam</span>
+    <nav>
+      <a href="#projects">Projects</a>
+      <a href="#skills">Skills</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <h1>Data pipelines &amp; AI extraction systems<br>that turn unstructured data into something you can query.</h1>
+    <p class="hero-sub">Data Analytics Intern at Tennant Company · MS in AI, University of North Texas (4.0 GPA)</p>
+    <div class="hero-links">
+      <a class="btn btn-primary" href="https://github.com/sharathmuthyam" target="_blank" rel="noopener">GitHub</a>
+      <a class="btn" href="https://www.linkedin.com/in/sharath2/" target="_blank" rel="noopener">LinkedIn</a>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <h2>Featured Projects</h2>
+    <div class="grid">
+
+      <article class="card">
+        <h3>PDF Document Intelligence Pipeline</h3>
+        <p>Structured metadata extraction from technical-manual PDFs: a cheap regex/OCR pass first, a Claude vision-LLM pass only for fields text alone can't resolve, and an explicit merge policy to reconcile fields read across multiple pages.</p>
+        <div class="tags"><span>Python</span><span>Claude API</span><span>PyMuPDF</span><span>Pydantic</span></div>
+        <a class="card-link" href="https://github.com/sharathmuthyam/pdf-doc-intelligence-pipeline" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+
+      <article class="card">
+        <h3>ML Model Registry</h3>
+        <p>Enterprise ML model registry with versioning, S3-backed artifact storage, Kafka-based async processing, and per-model cost tracking.</p>
+        <div class="tags"><span>Python</span><span>Kafka</span><span>S3</span></div>
+        <a class="card-link" href="https://github.com/sharathmuthyam/ml-model-registry" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+
+      <article class="card">
+        <h3>Distributed Task Orchestrator</h3>
+        <p>Async task processing engine: FastAPI + Redis priority queues + PostgreSQL, with a self-healing reconciler for stuck or failed jobs.</p>
+        <div class="tags"><span>FastAPI</span><span>Redis</span><span>PostgreSQL</span><span>Docker</span></div>
+        <a class="card-link" href="https://github.com/sharathmuthyam/distributed-task-orchestrator" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+
+      <article class="card">
+        <h3>FAISS RAG Pipeline</h3>
+        <p>Pipeline for embedding, storing, and searching documents with FAISS as the vector store.</p>
+        <div class="tags"><span>Python</span><span>FAISS</span><span>LangChain</span></div>
+        <a class="card-link" href="https://github.com/sharathmuthyam/FAISS_Storing_and_Searching" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+
+      <article class="card">
+        <h3>Network State Pipeline</h3>
+        <p>Real-time network device state pipeline: Kafka producer/consumer, PostgreSQL storage, Datadog dashboards.</p>
+        <div class="tags"><span>Kafka</span><span>PostgreSQL</span><span>Datadog</span></div>
+        <a class="card-link" href="https://github.com/sharathmuthyam/NETWORK-STATE-HANDLING---KAFKA-PSQL-DATADOG-K2" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+
+      <article class="card">
+        <h3>Sentiment Analysis (BERT + BiLSTM)</h3>
+        <p>Sentiment classification comparing BERT and BiLSTM deep learning models.</p>
+        <div class="tags"><span>PyTorch</span><span>BERT</span><span>NLP</span></div>
+        <a class="card-link" href="https://github.com/sharathmuthyam/DL-PROJECT-" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <h2>Skills</h2>
+    <div class="skills-grid">
+      <div class="skill-group">
+        <h4>Languages &amp; Data</h4>
+        <p>Python · SQL · Pandas · PostgreSQL</p>
+      </div>
+      <div class="skill-group">
+        <h4>AI / ML</h4>
+        <p>PyTorch · LangChain · FAISS · Claude API · RAG</p>
+      </div>
+      <div class="skill-group">
+        <h4>Pipelines &amp; Infra</h4>
+        <p>FastAPI · Docker · Kafka · AWS · Azure</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <h2>About</h2>
+    <p class="about-text">
+      I'm a Data Analytics Intern at Tennant Company, working on AI-powered document intelligence
+      pipelines. I recently finished my MS in AI at the University of North Texas with a 4.0 GPA,
+      where I was a Graduate Teaching Assistant supporting 50+ students in Python, SQL, and PyTorch.
+      I like turning messy, unstructured data — PDFs, logs, documents — into clean, structured data
+      that's actually usable downstream.
+    </p>
+  </section>
+
+  <section id="contact" class="section contact">
+    <h2>Get in touch</h2>
+    <div class="hero-links">
+      <a class="btn btn-primary" href="https://www.linkedin.com/in/sharath2/" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn" href="https://github.com/sharathmuthyam" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <p>&copy; 2026 Sharath Chandra Reddy Muthyam</p>
+</footer>
+
+</body>
+</html>
